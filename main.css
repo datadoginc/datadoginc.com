@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Akkurat';
+  src: url('assets/Akkurat.eot');
+  src: url('assets/Akkurat.eot?#iefix') format('embedded-opentype'),
+    url('assets/Akkurat.woff') format('woff'),
+    url('assets/Akkurat.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Akkurat';
+  src: url('assets/AkkuratLight.eot');
+  src: url('assets/AkkuratLight.eot?#iefix') format('embedded-opentype'),
+    url('assets/AkkuratLight.woff') format('woff'),
+    url('assets/AkkuratLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+  font-size: 16px;
+}
+
+body {
+  padding: 50px;
+  background-color: white;
+  border-top: 5px solid rgba(129, 129, 129, 0.18);
+  font-family: 'Akkurat Light', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+
+  -webkit-animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -ms-animation: fadein 2s;
+  -o-animation: fadein 2s;
+  animation: fadein 2s;
+}
+
+.content {
+  width: 50%;
+}
+
+.subheading {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-family: 'Akkurat', sans-serif;
+}
+
+.header {
+  margin-bottom: 3em;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
