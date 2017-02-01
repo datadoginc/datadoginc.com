@@ -18,23 +18,54 @@
   font-style: normal;
 }
 
-* {
-  font-size: 16px;
-}
-
 body {
   padding: 50px;
   background-color: white;
-  border-top: 5px solid rgba(129, 129, 129, 0.18);
   font-family: 'Akkurat Light', sans-serif;
   line-height: 1.6;
   margin: 0;
+  font-size: 16px;
 
   -webkit-animation: fadein 2s;
   -moz-animation: fadein 2s;
   -ms-animation: fadein 2s;
   -o-animation: fadein 2s;
   animation: fadein 2s;
+}
+
+a {
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-family: 'Akkurat', sans-serif;
+  font-weight: bold;
+  color: #007ee5;
+  padding: 4px 10px;
+  transition: color 0.5s ease;
+}
+
+a:hover {
+  color: black;
+}
+
+.nav {
+  float: right;
+}
+
+ul, li {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: 'Akkurat Light', sans-serif;
+  font-weight: 100;
 }
 
 .content {
