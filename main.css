@@ -53,6 +53,10 @@ a:hover {
   float: right;
 }
 
+.logo {
+  width: 20%;
+}
+
 ul, li {
   padding: 0;
   list-style-type: none;
@@ -63,14 +67,20 @@ li {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 42px;
   font-family: 'Akkurat Light', sans-serif;
   font-weight: 100;
   line-height: 1.4;
 }
 
+.m-b-2 { margin-bottom: 1.5em;}
+
 .content {
-  width: 60%;
+  width: 100%;
+}
+
+.subcontent {
+  width: 50%;
 }
 
 .subheading {
